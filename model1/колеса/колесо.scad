@@ -34,7 +34,7 @@ module wheel_with_axis(print_error=0) {
     // углубление вокруг основания оси, чтобы
     // пластик на первом слое при печати не 
     // забивал отверсие под ось
-    translate([0,0,-0.1]) sphere(r=2+print_error, h=1+0.1);
+    translate([0,0,0]) sphere(r=2+print_error);
   }
 }
 
